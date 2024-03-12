@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-twig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESBuild plugin to handle and build Twig files",
   "access": "public",
   "engines": {
@@ -16,6 +16,7 @@
     "clean:pc": "rd /s /q node_modules & pnpm i",
     "dev": "tsc-watch --onSuccess \"pnpm build\""
   },
+  "target": "node",
   "type": "module",
   "keywords": [],
   "author": "Vettvangur",
