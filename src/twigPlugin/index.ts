@@ -1,1 +1,1 @@
-export { default as twigPlugin } from './plugin'
+export { default as twigPlugin } from './twigPlugin'
