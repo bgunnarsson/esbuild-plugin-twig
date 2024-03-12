@@ -102,7 +102,9 @@
       "**/localhost-key.pem",
       "**/localhost.pem",
       "**/.gitignore",
-      "**/readme"
+      "**/readme",
+      "**/dist",
+      "**/.github"
     ]
   },
   "formatter": {
@@ -131,7 +133,9 @@
       "**/localhost-key.pem",
       "**/localhost.pem",
       "**/.gitignore",
-      "**/readme"
+      "**/readme",
+      "**/dist",
+      "**/.github"
     ]
   },
   "javascript": {

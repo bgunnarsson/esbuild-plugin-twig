@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-twig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESBuild plugin to handle and build Twig files",
   "access": "public",
   "engines": {
