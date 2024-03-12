@@ -103,8 +103,8 @@
       "**/localhost.pem",
       "**/.gitignore",
       "**/readme",
-      "**/dist",
-      "**/.github"
+      "dist",
+      ".github"
     ]
   },
   "formatter": {
@@ -134,8 +134,8 @@
       "**/localhost.pem",
       "**/.gitignore",
       "**/readme",
-      "**/dist",
-      "**/.github"
+      "dist",
+      ".github"
     ]
   },
   "javascript": {

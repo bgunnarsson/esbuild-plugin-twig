@@ -1,11 +1,13 @@
 {
   "name": "esbuild-plugin-twig",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESBuild plugin to handle and build Twig files",
   "access": "public",
   "engines": {
     "node": ">=16.0.0 || >=18.0.0 || >=19.0.0 || >=20.0.0"
   },
+  "fs": false,
+  "path": false,
   "scripts": {
     "prebuild": "pnpm format & pnpm lint & pnpm git",
     "git": "git add . & git commit -m 'update' & git push origin main",
