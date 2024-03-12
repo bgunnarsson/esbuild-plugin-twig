@@ -10,7 +10,7 @@ export default [
   {
     input: 'src/index.ts',
     // external: ['react-dom'],
-    external: [...Object.keys(packageJson.peerDependencies || {})],
+    external: ['fs', 'path'],
     output: [
       {
         file: packageJson.main,
