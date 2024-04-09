@@ -33,14 +33,16 @@ yarn add esbuild-plugin-twig
 ```TypeScript
 import * as esbuild from 'esbuild'
 import sassPlugin from 'esbuild-sass-twig'
+import Twig from 'twig'
 
 esbuild
   .build({
-    entryPoints: ["src/index.js"],
+    entryPoints: ['src/index.js'],
     bundle: true,
-    outfile: "bundle.js",
+    outfile: 'bundle.js',
     plugins: [
         twigPlugin({
+            twig: Twig
             src: 'src/twig',
             desitnation: 'public'
         })
@@ -53,16 +55,18 @@ esbuild
 
 ```JavaScript
 
-const esbuild = require("esbuild");
-const twigPlugin = require("esbuild-plugin-twig");
+const esbuild = require('esbuild');
+const twigPlugin = require('esbuild-plugin-twig');
+const Twig = require('twig')
 
 esbuild
   .build({
-    entryPoints: ["src/index.js"],
+    entryPoints: ['src/index.js'],
     bundle: true,
-    outfile: "bundle.js",
+    outfile: 'bundle.js',
     plugins: [
         twigPlugin({
+            twig: Twig,
             src: 'src/twig',
             desitnation: 'public'
         })
