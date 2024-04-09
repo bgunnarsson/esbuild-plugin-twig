@@ -1,4 +1,4 @@
-# This is broken for the time being - esbuild-plugin-twig
+# esbuild-plugin-twig
 
 ESBuild plugin to handle and build Twig files.
 
@@ -32,7 +32,7 @@ yarn add esbuild-plugin-twig
 
 ```TypeScript
 import * as esbuild from 'esbuild'
-import sassPlugin from 'esbuild-sass-twig'
+import twigPlugin from 'esbuild-sass-twig'
 import Twig from 'twig'
 
 esbuild
