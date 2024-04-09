@@ -28,7 +28,7 @@ Yarn
 yarn add twig esbuild-plugin-twig
 ```
 
-### `Usage TypeScript`
+### `Usage ESM`
 
 ```TypeScript
 import Twig from 'twig'
