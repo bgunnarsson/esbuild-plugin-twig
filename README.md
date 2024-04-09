@@ -13,27 +13,26 @@ ESBuild plugin to handle and build Twig files.
 PNPM
 
 ```
-pnpm i esbuild-plguin-sass
+pnpm i twig esbuild-plguin-twig
 ```
 
 NPM
 
 ```
-npm i esbuild-plugin-twig
+npm i twig esbuild-plugin-twig
 ```
 
 Yarn
 
 ```
-yarn add esbuild-plugin-twig
+yarn add twig esbuild-plugin-twig
 ```
 
 ### `Usage TypeScript`
 
 ```TypeScript
-import * as esbuild from 'esbuild'
-import twigPlugin from 'esbuild-sass-twig'
 import Twig from 'twig'
+import twigPlugin from 'esbuild-sass-twig'
 
 esbuild
   .build({
@@ -55,7 +54,6 @@ esbuild
 
 ```JavaScript
 
-const esbuild = require('esbuild');
 const twigPlugin = require('esbuild-plugin-twig');
 const Twig = require('twig')
 
@@ -76,14 +74,13 @@ esbuild
 ```
 
 
-
-
 ### `Options`
 
 ``` TypeScript
 interface ITwigPluginOptions {
-  src: string
-  destination: string
+    twig: any
+    src: string
+    destination: string
 }
 
 ```
