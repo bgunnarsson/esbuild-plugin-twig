@@ -8,7 +8,7 @@ ESBuild plugin to handle and build Twig files.
 
 ---
 
-### `Install`
+### `Installation`
 
 PNPM
 
