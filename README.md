@@ -76,11 +76,8 @@ esbuild
 
 ### `Options`
 
-``` TypeScript
-interface ITwigPluginOptions {
-    twig: any
-    src: string
-    destination: string
-}
-
-```
+| Option        | Type                  | Default       |
+| ------------- | --------------------- | ------------- |
+| twig          | Imported twig package | Empty         |
+| src           | string                | src/twig      |
+| destination   | string                | public        |
