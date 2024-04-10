@@ -43,7 +43,7 @@ esbuild
         twigPlugin({
             twig: Twig
             src: 'src/twig',
-            desitnation: 'public'
+            destination: 'public'
         })
     ],
   })
@@ -66,7 +66,7 @@ esbuild
         twigPlugin({
             twig: Twig,
             src: 'src/twig',
-            desitnation: 'public'
+            destination: 'public'
         })
     ],
   })
