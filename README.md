@@ -38,9 +38,9 @@ esbuild
   .build({
     plugins: [
         twigPlugin({
-            twig: Twig
+            twig: Twig,
             src: 'src/twig',
-            destination: 'public'
+            destination: 'public',
         })
     ],
   })
@@ -60,7 +60,7 @@ esbuild
         twigPlugin({
             twig: Twig,
             src: 'src/twig',
-            destination: 'public'
+            destination: 'public',
         })
     ],
   })
