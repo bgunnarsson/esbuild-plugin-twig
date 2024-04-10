@@ -76,8 +76,8 @@ esbuild
 
 ### `Options`
 
-| Option        | Type                  | Default       |
-| ------------- | --------------------- | ------------- |
-| twig          | Imported twig package | Empty         |
-| src           | string                | src/twig      |
-| destination   | string                | public        |
+| Option        | Type                  | Default       | Required |
+| ------------- | --------------------- | ------------- | -------- |
+| twig          | Imported twig package | Empty         | yes      |
+| src           | string                | src/twig      | no       |
+| destination   | string                | public        | no       |
