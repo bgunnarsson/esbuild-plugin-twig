@@ -36,9 +36,6 @@ import twigPlugin from 'esbuild-sass-twig'
 
 esbuild
   .build({
-    entryPoints: ['src/index.js'],
-    bundle: true,
-    outfile: 'bundle.js',
     plugins: [
         twigPlugin({
             twig: Twig
@@ -59,9 +56,6 @@ const Twig = require('twig')
 
 esbuild
   .build({
-    entryPoints: ['src/index.js'],
-    bundle: true,
-    outfile: 'bundle.js',
     plugins: [
         twigPlugin({
             twig: Twig,
