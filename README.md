@@ -13,7 +13,7 @@ ESBuild plugin to handle and build Twig files.
 PNPM
 
 ```
-pnpm i twig esbuild-plguin-twig
+pnpm i twig esbuild-plugin-twig
 ```
 
 NPM
