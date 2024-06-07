@@ -32,7 +32,7 @@ yarn add twig esbuild-plugin-twig
 
 ```TypeScript
 import Twig from 'twig'
-import twigPlugin from 'esbuild-plugin-twig'
+import { twigPlugin } from "esbuild-plugin-twig";
 
 esbuild
   .build({
@@ -51,7 +51,7 @@ esbuild
 
 ```JavaScript
 
-const twigPlugin = require('esbuild-plugin-twig');
+const { twigPlugin } = require('esbuild-plugin-twig');
 const Twig = require('twig')
 
 esbuild
